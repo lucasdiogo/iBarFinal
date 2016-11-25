@@ -7,17 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130B26A31DE7A0AB00945AF2 /* Bar+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B269C1DE7A0AB00945AF2 /* Bar+CoreDataClass.m */; };
+		130B26A41DE7A0AB00945AF2 /* Bar+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B269E1DE7A0AB00945AF2 /* Bar+CoreDataProperties.m */; };
+		130B26A51DE7A0AB00945AF2 /* Cardapio+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B26A01DE7A0AB00945AF2 /* Cardapio+CoreDataClass.m */; };
+		130B26A61DE7A0AB00945AF2 /* Cardapio+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B26A21DE7A0AB00945AF2 /* Cardapio+CoreDataProperties.m */; };
+		130B26A91DE7AF2D00945AF2 /* BaresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B26A81DE7AF2D00945AF2 /* BaresViewController.m */; };
+		130B26AC1DE7B13F00945AF2 /* NSManagedObjectContext+Dao.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B26AB1DE7B13F00945AF2 /* NSManagedObjectContext+Dao.m */; };
+		130B26AF1DE7B57F00945AF2 /* UIViewController+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B26AE1DE7B57F00945AF2 /* UIViewController+CoreData.m */; };
+		130B26B21DE7B89100945AF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130B26B11DE7B89100945AF2 /* CoreLocation.framework */; };
+		130B26B41DE7B89F00945AF2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130B26B31DE7B89F00945AF2 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		130B26B81DE7C39F00945AF2 /* Endereco.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B26B71DE7C39F00945AF2 /* Endereco.m */; };
 		13E317211DE6563500D5C9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E317201DE6563500D5C9E6 /* main.m */; };
 		13E317241DE6563500D5C9E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E317231DE6563500D5C9E6 /* AppDelegate.m */; };
 		13E317271DE6563500D5C9E6 /* iBarFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13E317251DE6563500D5C9E6 /* iBarFinal.xcdatamodeld */; };
 		13E3172A1DE6563500D5C9E6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E317291DE6563500D5C9E6 /* MasterViewController.m */; };
-		13E3172D1DE6563500D5C9E6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E3172C1DE6563500D5C9E6 /* DetailViewController.m */; };
 		13E317301DE6563600D5C9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E3172E1DE6563600D5C9E6 /* Main.storyboard */; };
 		13E317321DE6563600D5C9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E317311DE6563600D5C9E6 /* Assets.xcassets */; };
 		13E317351DE6563600D5C9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E317331DE6563600D5C9E6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		130B269B1DE7A0AB00945AF2 /* Bar+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bar+CoreDataClass.h"; sourceTree = "<group>"; };
+		130B269C1DE7A0AB00945AF2 /* Bar+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bar+CoreDataClass.m"; sourceTree = "<group>"; };
+		130B269D1DE7A0AB00945AF2 /* Bar+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bar+CoreDataProperties.h"; sourceTree = "<group>"; };
+		130B269E1DE7A0AB00945AF2 /* Bar+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bar+CoreDataProperties.m"; sourceTree = "<group>"; };
+		130B269F1DE7A0AB00945AF2 /* Cardapio+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cardapio+CoreDataClass.h"; sourceTree = "<group>"; };
+		130B26A01DE7A0AB00945AF2 /* Cardapio+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Cardapio+CoreDataClass.m"; sourceTree = "<group>"; };
+		130B26A11DE7A0AB00945AF2 /* Cardapio+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cardapio+CoreDataProperties.h"; sourceTree = "<group>"; };
+		130B26A21DE7A0AB00945AF2 /* Cardapio+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Cardapio+CoreDataProperties.m"; sourceTree = "<group>"; };
+		130B26A71DE7AF2D00945AF2 /* BaresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaresViewController.h; sourceTree = "<group>"; };
+		130B26A81DE7AF2D00945AF2 /* BaresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaresViewController.m; sourceTree = "<group>"; };
+		130B26AA1DE7B13F00945AF2 /* NSManagedObjectContext+Dao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Dao.h"; sourceTree = "<group>"; };
+		130B26AB1DE7B13F00945AF2 /* NSManagedObjectContext+Dao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Dao.m"; sourceTree = "<group>"; };
+		130B26AD1DE7B57F00945AF2 /* UIViewController+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CoreData.h"; sourceTree = "<group>"; };
+		130B26AE1DE7B57F00945AF2 /* UIViewController+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CoreData.m"; sourceTree = "<group>"; };
+		130B26B11DE7B89100945AF2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		130B26B31DE7B89F00945AF2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		130B26B61DE7C39F00945AF2 /* Endereco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endereco.h; sourceTree = "<group>"; };
+		130B26B71DE7C39F00945AF2 /* Endereco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Endereco.m; sourceTree = "<group>"; };
 		13E3171C1DE6563500D5C9E6 /* iBarFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBarFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E317201DE6563500D5C9E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13E317221DE6563500D5C9E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -25,8 +52,6 @@
 		13E317261DE6563500D5C9E6 /* iBarFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBarFinal.xcdatamodel; sourceTree = "<group>"; };
 		13E317281DE6563500D5C9E6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		13E317291DE6563500D5C9E6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		13E3172B1DE6563500D5C9E6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		13E3172C1DE6563500D5C9E6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		13E3172F1DE6563600D5C9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13E317311DE6563600D5C9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13E317341DE6563600D5C9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,17 +63,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130B26B41DE7B89F00945AF2 /* MapKit.framework in Frameworks */,
+				130B26B21DE7B89100945AF2 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		130B26B01DE7B7CB00945AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130B26B31DE7B89F00945AF2 /* MapKit.framework */,
+				130B26B11DE7B89100945AF2 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			path = iBarFinal;
+			sourceTree = "<group>";
+		};
+		130B26B51DE7C35C00945AF2 /* Endereco */ = {
+			isa = PBXGroup;
+			children = (
+				130B26B61DE7C39F00945AF2 /* Endereco.h */,
+				130B26B71DE7C39F00945AF2 /* Endereco.m */,
+			);
+			name = Endereco;
+			sourceTree = "<group>";
+		};
 		13E317131DE6563500D5C9E6 = {
 			isa = PBXGroup;
 			children = (
 				13E3171E1DE6563500D5C9E6 /* iBarFinal */,
 				13E3171D1DE6563500D5C9E6 /* Products */,
+				130B26B01DE7B7CB00945AF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,18 +110,22 @@
 		13E3171E1DE6563500D5C9E6 /* iBarFinal */ = {
 			isa = PBXGroup;
 			children = (
+				130B26B51DE7C35C00945AF2 /* Endereco */,
+				13E317461DE6655700D5C9E6 /* Modelo */,
 				13E317221DE6563500D5C9E6 /* AppDelegate.h */,
 				13E317231DE6563500D5C9E6 /* AppDelegate.m */,
 				13E317281DE6563500D5C9E6 /* MasterViewController.h */,
 				13E317291DE6563500D5C9E6 /* MasterViewController.m */,
-				13E3172B1DE6563500D5C9E6 /* DetailViewController.h */,
-				13E3172C1DE6563500D5C9E6 /* DetailViewController.m */,
+				130B26A71DE7AF2D00945AF2 /* BaresViewController.h */,
+				130B26A81DE7AF2D00945AF2 /* BaresViewController.m */,
 				13E3172E1DE6563600D5C9E6 /* Main.storyboard */,
 				13E317311DE6563600D5C9E6 /* Assets.xcassets */,
 				13E317331DE6563600D5C9E6 /* LaunchScreen.storyboard */,
 				13E317361DE6563600D5C9E6 /* Info.plist */,
 				13E317251DE6563500D5C9E6 /* iBarFinal.xcdatamodeld */,
 				13E3171F1DE6563500D5C9E6 /* Supporting Files */,
+				130B26AD1DE7B57F00945AF2 /* UIViewController+CoreData.h */,
+				130B26AE1DE7B57F00945AF2 /* UIViewController+CoreData.m */,
 			);
 			path = iBarFinal;
 			sourceTree = "<group>";
@@ -85,6 +136,23 @@
 				13E317201DE6563500D5C9E6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13E317461DE6655700D5C9E6 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				130B269B1DE7A0AB00945AF2 /* Bar+CoreDataClass.h */,
+				130B269C1DE7A0AB00945AF2 /* Bar+CoreDataClass.m */,
+				130B269D1DE7A0AB00945AF2 /* Bar+CoreDataProperties.h */,
+				130B269E1DE7A0AB00945AF2 /* Bar+CoreDataProperties.m */,
+				130B269F1DE7A0AB00945AF2 /* Cardapio+CoreDataClass.h */,
+				130B26A01DE7A0AB00945AF2 /* Cardapio+CoreDataClass.m */,
+				130B26A11DE7A0AB00945AF2 /* Cardapio+CoreDataProperties.h */,
+				130B26A21DE7A0AB00945AF2 /* Cardapio+CoreDataProperties.m */,
+				130B26AA1DE7B13F00945AF2 /* NSManagedObjectContext+Dao.h */,
+				130B26AB1DE7B13F00945AF2 /* NSManagedObjectContext+Dao.m */,
+			);
+			name = Modelo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +186,7 @@
 				TargetAttributes = {
 					13E3171B1DE6563500D5C9E6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 94T62729BY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -158,10 +227,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13E3172D1DE6563500D5C9E6 /* DetailViewController.m in Sources */,
+				130B26A61DE7A0AB00945AF2 /* Cardapio+CoreDataProperties.m in Sources */,
+				130B26A41DE7A0AB00945AF2 /* Bar+CoreDataProperties.m in Sources */,
+				130B26A51DE7A0AB00945AF2 /* Cardapio+CoreDataClass.m in Sources */,
+				130B26AF1DE7B57F00945AF2 /* UIViewController+CoreData.m in Sources */,
 				13E3172A1DE6563500D5C9E6 /* MasterViewController.m in Sources */,
 				13E317241DE6563500D5C9E6 /* AppDelegate.m in Sources */,
+				130B26A91DE7AF2D00945AF2 /* BaresViewController.m in Sources */,
+				130B26A31DE7A0AB00945AF2 /* Bar+CoreDataClass.m in Sources */,
 				13E317271DE6563500D5C9E6 /* iBarFinal.xcdatamodeld in Sources */,
+				130B26AC1DE7B13F00945AF2 /* NSManagedObjectContext+Dao.m in Sources */,
+				130B26B81DE7C39F00945AF2 /* Endereco.m in Sources */,
 				13E317211DE6563500D5C9E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94T62729BY;
 				INFOPLIST_FILE = iBarFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.iBarFinal;
@@ -291,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94T62729BY;
 				INFOPLIST_FILE = iBarFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.iBarFinal;
@@ -317,6 +395,7 @@
 				13E3173B1DE6563600D5C9E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
