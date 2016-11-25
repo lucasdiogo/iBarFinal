@@ -17,7 +17,7 @@
 		130B26B21DE7B89100945AF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130B26B11DE7B89100945AF2 /* CoreLocation.framework */; };
 		130B26B41DE7B89F00945AF2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130B26B31DE7B89F00945AF2 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		130B26B81DE7C39F00945AF2 /* Endereco.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B26B71DE7C39F00945AF2 /* Endereco.m */; };
-		130B26BA1DE7E0F600945AF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 130B26B91DE7E0F600945AF2 /* GoogleService-Info.plist */; };
+		13AA460B1DE7EB5F005FE4C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13AA460A1DE7EB5F005FE4C2 /* GoogleService-Info.plist */; };
 		13E317211DE6563500D5C9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E317201DE6563500D5C9E6 /* main.m */; };
 		13E317241DE6563500D5C9E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E317231DE6563500D5C9E6 /* AppDelegate.m */; };
 		13E317271DE6563500D5C9E6 /* iBarFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13E317251DE6563500D5C9E6 /* iBarFinal.xcdatamodeld */; };
@@ -25,6 +25,7 @@
 		13E317301DE6563600D5C9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E3172E1DE6563600D5C9E6 /* Main.storyboard */; };
 		13E317321DE6563600D5C9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E317311DE6563600D5C9E6 /* Assets.xcassets */; };
 		13E317351DE6563600D5C9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E317331DE6563600D5C9E6 /* LaunchScreen.storyboard */; };
+		AC54A31B3066965FC949AB4C /* libPods-iBarFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF18D86886C369054D56549 /* libPods-iBarFinal.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +47,7 @@
 		130B26B31DE7B89F00945AF2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		130B26B61DE7C39F00945AF2 /* Endereco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endereco.h; sourceTree = "<group>"; };
 		130B26B71DE7C39F00945AF2 /* Endereco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Endereco.m; sourceTree = "<group>"; };
-		130B26B91DE7E0F600945AF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13AA460A1DE7EB5F005FE4C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13E3171C1DE6563500D5C9E6 /* iBarFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBarFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E317201DE6563500D5C9E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13E317221DE6563500D5C9E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +59,9 @@
 		13E317311DE6563600D5C9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13E317341DE6563600D5C9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13E317361DE6563600D5C9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1586998632601C0103FBA3CE /* Pods-iBarFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBarFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBarFinal/Pods-iBarFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		45674D18F1714BA288C73F7E /* Pods-iBarFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBarFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBarFinal/Pods-iBarFinal.release.xcconfig"; sourceTree = "<group>"; };
+		4CF18D86886C369054D56549 /* libPods-iBarFinal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBarFinal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			files = (
 				130B26B41DE7B89F00945AF2 /* MapKit.framework in Frameworks */,
 				130B26B21DE7B89100945AF2 /* CoreLocation.framework in Frameworks */,
+				AC54A31B3066965FC949AB4C /* libPods-iBarFinal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			children = (
 				130B26B31DE7B89F00945AF2 /* MapKit.framework */,
 				130B26B11DE7B89100945AF2 /* CoreLocation.framework */,
+				4CF18D86886C369054D56549 /* libPods-iBarFinal.a */,
 			);
 			name = Frameworks;
 			path = iBarFinal;
@@ -98,6 +104,7 @@
 				13E3171E1DE6563500D5C9E6 /* iBarFinal */,
 				13E3171D1DE6563500D5C9E6 /* Products */,
 				130B26B01DE7B7CB00945AF2 /* Frameworks */,
+				E0712F873BA3CD566B3FDF17 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,7 +119,7 @@
 		13E3171E1DE6563500D5C9E6 /* iBarFinal */ = {
 			isa = PBXGroup;
 			children = (
-				130B26B91DE7E0F600945AF2 /* GoogleService-Info.plist */,
+				13AA460A1DE7EB5F005FE4C2 /* GoogleService-Info.plist */,
 				130B26B51DE7C35C00945AF2 /* Endereco */,
 				13E317461DE6655700D5C9E6 /* Modelo */,
 				13E317221DE6563500D5C9E6 /* AppDelegate.h */,
@@ -158,6 +165,15 @@
 			name = Modelo;
 			sourceTree = "<group>";
 		};
+		E0712F873BA3CD566B3FDF17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1586998632601C0103FBA3CE /* Pods-iBarFinal.debug.xcconfig */,
+				45674D18F1714BA288C73F7E /* Pods-iBarFinal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13E317391DE6563600D5C9E6 /* Build configuration list for PBXNativeTarget "iBarFinal" */;
 			buildPhases = (
+				3550F2A181DCB3748FADC767 /* [CP] Check Pods Manifest.lock */,
 				13E317181DE6563500D5C9E6 /* Sources */,
 				13E317191DE6563500D5C9E6 /* Frameworks */,
 				13E3171A1DE6563500D5C9E6 /* Resources */,
+				5BF8A368180815730346C849 /* [CP] Embed Pods Frameworks */,
+				AD98E4B25FCF725EBC0CD7FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,13 +237,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E317351DE6563600D5C9E6 /* LaunchScreen.storyboard in Resources */,
-				130B26BA1DE7E0F600945AF2 /* GoogleService-Info.plist in Resources */,
+				13AA460B1DE7EB5F005FE4C2 /* GoogleService-Info.plist in Resources */,
 				13E317321DE6563600D5C9E6 /* Assets.xcassets in Resources */,
 				13E317301DE6563600D5C9E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3550F2A181DCB3748FADC767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BF8A368180815730346C849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBarFinal/Pods-iBarFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD98E4B25FCF725EBC0CD7FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBarFinal/Pods-iBarFinal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13E317181DE6563500D5C9E6 /* Sources */ = {
@@ -358,6 +425,7 @@
 		};
 		13E3173A1DE6563600D5C9E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1586998632601C0103FBA3CE /* Pods-iBarFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 94T62729BY;
@@ -370,6 +438,7 @@
 		};
 		13E3173B1DE6563600D5C9E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45674D18F1714BA288C73F7E /* Pods-iBarFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 94T62729BY;
