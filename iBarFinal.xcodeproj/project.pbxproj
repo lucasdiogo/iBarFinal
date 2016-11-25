@@ -17,6 +17,7 @@
 		130B26B21DE7B89100945AF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130B26B11DE7B89100945AF2 /* CoreLocation.framework */; };
 		130B26B41DE7B89F00945AF2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130B26B31DE7B89F00945AF2 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		130B26B81DE7C39F00945AF2 /* Endereco.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B26B71DE7C39F00945AF2 /* Endereco.m */; };
+		130B26BA1DE7E0F600945AF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 130B26B91DE7E0F600945AF2 /* GoogleService-Info.plist */; };
 		13E317211DE6563500D5C9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E317201DE6563500D5C9E6 /* main.m */; };
 		13E317241DE6563500D5C9E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E317231DE6563500D5C9E6 /* AppDelegate.m */; };
 		13E317271DE6563500D5C9E6 /* iBarFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13E317251DE6563500D5C9E6 /* iBarFinal.xcdatamodeld */; };
@@ -45,6 +46,7 @@
 		130B26B31DE7B89F00945AF2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		130B26B61DE7C39F00945AF2 /* Endereco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endereco.h; sourceTree = "<group>"; };
 		130B26B71DE7C39F00945AF2 /* Endereco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Endereco.m; sourceTree = "<group>"; };
+		130B26B91DE7E0F600945AF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13E3171C1DE6563500D5C9E6 /* iBarFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBarFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E317201DE6563500D5C9E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13E317221DE6563500D5C9E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		13E3171E1DE6563500D5C9E6 /* iBarFinal */ = {
 			isa = PBXGroup;
 			children = (
+				130B26B91DE7E0F600945AF2 /* GoogleService-Info.plist */,
 				130B26B51DE7C35C00945AF2 /* Endereco */,
 				13E317461DE6655700D5C9E6 /* Modelo */,
 				13E317221DE6563500D5C9E6 /* AppDelegate.h */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E317351DE6563600D5C9E6 /* LaunchScreen.storyboard in Resources */,
+				130B26BA1DE7E0F600945AF2 /* GoogleService-Info.plist in Resources */,
 				13E317321DE6563600D5C9E6 /* Assets.xcassets in Resources */,
 				13E317301DE6563600D5C9E6 /* Main.storyboard in Resources */,
 			);

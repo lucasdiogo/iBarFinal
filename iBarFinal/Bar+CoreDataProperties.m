@@ -18,5 +18,6 @@
 @dynamic descricao;
 @dynamic nome;
 @dynamic uuid;
+@dynamic endereco;
 
 @end

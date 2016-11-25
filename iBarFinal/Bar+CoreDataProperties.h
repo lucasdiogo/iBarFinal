@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *cardapio;
 @property (nullable, nonatomic, copy) NSString *descricao;
 @property (nullable, nonatomic, copy) NSString *nome;
+@property (nullable, nonatomic, copy) NSString *endereco;
 @property (nullable, nonatomic, copy) NSString *uuid;
 
 @end

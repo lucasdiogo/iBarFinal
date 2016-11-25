@@ -3,6 +3,7 @@
     <entity name="Bar" representedClassName="Bar" syncable="YES">
         <attribute name="cardapio" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="descricao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endereco" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="uuid" attributeType="String" syncable="YES"/>
     </entity>
@@ -12,7 +13,7 @@
         <attribute name="valor" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Bar" positionX="250" positionY="-36" width="128" height="105"/>
+        <element name="Bar" positionX="250" positionY="-36" width="128" height="118"/>
         <element name="Cardapio" positionX="79" positionY="-36" width="128" height="90"/>
     </elements>
 </model>

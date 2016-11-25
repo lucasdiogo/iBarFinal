@@ -11,4 +11,18 @@
 
 @implementation Endereco
 
+-(instancetype)initWithPlacemark:(CLPlacemark *)location withTitle:(NSString *)title andWithSubtitle:(NSString *)subtitle {
+    self = [super init];
+    if(self){
+        _placemark = location;
+        _title = title;
+        _subtitle = subtitle;
+    }
+    return self;
+}
+-(CLLocationCoordinate2D)coordinate {
+    return [[_placemark location] coordinate];
+}
+
+
 @end

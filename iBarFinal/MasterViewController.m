@@ -80,14 +80,14 @@
 
 
 - (void)insertNewObject:(id)sender {
-    [self performSegueWithIdentifier:@"showDetail" sender:sender];
+    [self performSegueWithIdentifier:@"mostraBar" sender:sender];
 }
 
 
 #pragma mark - Segues
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+    if ([[segue identifier] isEqualToString:@"mostraBar"]) {
         Bar * bar = [self.fetchedResultsController objectAtIndexPath:self.tableView.indexPathForSelectedRow];
         [segue.destinationViewController setBar:bar];
         

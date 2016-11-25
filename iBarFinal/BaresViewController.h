@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Bar+CoreDataClass.h"
 
 @interface BaresViewController : UIViewController
 

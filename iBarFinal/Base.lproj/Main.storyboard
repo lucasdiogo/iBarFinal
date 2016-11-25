@@ -87,6 +87,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhT-yz-ZoF">
                                 <state key="normal" title="Pesquisar Endereço"/>
+                                <connections>
+                                    <action selector="gecode:" destination="V9S-Ny-QlK" eventType="touchUpInside" id="zgg-XI-QdD"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vha-Mg-tjB"/>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FEn-gw-ACV">
@@ -137,17 +140,25 @@
                             <constraint firstItem="FEn-gw-ACV" firstAttribute="top" secondItem="yhz-Mz-TEJ" secondAttribute="bottom" constant="10" id="vcu-S2-TlS"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Bar" id="Teb-tE-8Ii"/>
+                    <navigationItem key="navigationItem" title="Bar" id="Teb-tE-8Ii">
+                        <barButtonItem key="rightBarButtonItem" title="Salvar" id="I3r-I3-yWS">
+                            <connections>
+                                <action selector="salvar:" destination="V9S-Ny-QlK" id="cQm-Kk-ASR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="descricaoBar" destination="FEn-gw-ACV" id="tkA-0D-sJD"/>
                         <outlet property="enderecoBar" destination="dwq-bS-tMS" id="IHM-uQ-PzS"/>
                         <outlet property="mapaBar" destination="vha-Mg-tjB" id="Nhu-TW-aoc"/>
                         <outlet property="nomeBar" destination="yhz-Mz-TEJ" id="M5W-jW-5bs"/>
+                        <segue destination="M4t-H4-n4X" kind="unwind" identifier="unwindToMaster" unwindAction="unwindToMaster:" id="ER6-pM-lhj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lS1-Nd-JxK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="M4t-H4-n4X" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1637.5999999999999" y="-672.41379310344837"/>
+            <point key="canvasLocation" x="1578" y="-670"/>
         </scene>
         <!--Master-->
         <scene sceneID="smW-Zh-WAh">
@@ -176,7 +187,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <segue destination="V9S-Ny-QlK" kind="show" id="pzn-DS-ekq"/>
+                                    <segue destination="V9S-Ny-QlK" kind="show" identifier="mostraBar" id="pzn-DS-ekq"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
