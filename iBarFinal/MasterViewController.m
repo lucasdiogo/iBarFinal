@@ -11,6 +11,7 @@
 #import "Bar+CoreDataClass.h"
 #import "BaresViewController.h"
 
+
 @import CoreLocation;
 
 

@@ -10,6 +10,7 @@
 #import "MasterViewController.h"
 #import "NSManagedObjectContext+DAO.h"
 #import "Bar+CoreDataClass.h"
+@import Firebase;
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -21,6 +22,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
+    [FIRApp configure];
+    
     return YES;
 }
 

@@ -6,5 +6,8 @@ target 'iBarFinal' do
   # use_frameworks!
 
   # Pods for iBarFinal
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
 
 end
